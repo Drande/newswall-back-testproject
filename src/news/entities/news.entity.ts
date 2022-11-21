@@ -19,6 +19,8 @@ export class News {
     enum: NewsTypes,
   })
   type: string;
+  imageUrl?: string;
+  slides?: { imageUrl: string, title: string }[];
   
 }
 
